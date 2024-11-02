@@ -1,0 +1,12 @@
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\bin\Debug\net8.0\proyecto.Infrastructure.deps.json
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\bin\Debug\net8.0\proyecto.Infrastructure.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\bin\Debug\net8.0\proyecto.Infrastructure.pdb
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.sourcelink.json
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\refint\proyecto.Infrastructure.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.pdb
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\ref\proyecto.Infrastructure.dll

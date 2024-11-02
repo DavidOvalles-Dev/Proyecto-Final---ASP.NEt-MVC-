@@ -3,57 +3,100 @@ using Microsoft.EntityFrameworkCore;
 using proyecto.Domain.Data;
 using proyecto.Domain.Entities;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace proyecto.Api.Controllers
+[Route("api/cliente")]
+[ApiController]
+public class ClientesController : ControllerBase
 {
-    public class ClientesController : Controller
+    private readonly ApplicationDbContext _context;
+
+    public ClientesController(ApplicationDbContext context)
     {
+        _context = context;
+    }
 
-        private readonly ApplicationDbContext _context;
-        public ClientesController(ApplicationDbContext context)
+    // GET: api/Clientes
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
+    {
+        return await _context.Clientes.ToListAsync();
+    }
+
+    // GET: api/Clientes/5
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Cliente>> GetCliente(int id)
+    {
+        var cliente = await _context.Clientes.FindAsync(id);
+
+        if (cliente == null)
         {
-            _context = context;
+            return NotFound();
         }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
+        return cliente;
+    }
+
+    // POST: api/Clientes
+    [HttpPost]
+    public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
+    {
+        _context.Clientes.Add(cliente);
+        await _context.SaveChangesAsync();
+
+        return CreatedAtAction(nameof(GetCliente), new { id = cliente.Id }, cliente);
+    }
+
+    // PUT: api/Clientes/5
+    [HttpPut("{id}")]
+    public async Task<IActionResult> PutCliente(int id, Cliente cliente)
+    {
+        if (id != cliente.Id)
         {
-            return await _context.Clientes.ToListAsync();
+            return BadRequest();
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Cliente>> GetCliente(int id)
-        {
-            var cliente = await _context.Clientes.FindAsync(id);
-            if (cliente == null) return NotFound();
-            return cliente;
-        }
+        _context.Entry(cliente).State = EntityState.Modified;
 
-        [HttpPost]
-        public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
+        try
         {
-            _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
-            return CreatedAtAction("GetCliente", new { id = cliente.Id }, cliente);
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!ClienteExists(id))
+            {
+                return NotFound();
+            }
+            else
+            {
+                throw;
+            }
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCliente(int id, Cliente cliente)
+        return NoContent();
+    }
+
+    // DELETE: api/Clientes/5
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteCliente(int id)
+    {
+        var cliente = await _context.Clientes.FindAsync(id);
+        if (cliente == null)
         {
-            if (id != cliente.Id) return BadRequest();
-            _context.Entry(cliente).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-            return NoContent();
+            return NotFound();
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCliente(int id)
-        {
-            var cliente = await _context.Clientes.FindAsync(id);
-            if (cliente == null) return NotFound();
-            _context.Clientes.Remove(cliente);
-            await _context.SaveChangesAsync();
-            return NoContent();
-        }
+        _context.Clientes.Remove(cliente);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
+
+    private bool ClienteExists(int id)
+    {
+        return _context.Clientes.Any(e => e.Id == id);
     }
 }

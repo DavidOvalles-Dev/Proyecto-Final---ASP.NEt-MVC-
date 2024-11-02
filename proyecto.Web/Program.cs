@@ -1,7 +1,18 @@
+using System.Net.Http.Headers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+//Agrego el servicio que necesito para que mi interfaz funcione correctamente 
+builder.Services.AddHttpClient();
+//Agrego como servicios al proyecto, la interfaz que cree de cliente 
+builder.Services.AddScoped<IClienteService, ClienteService>();
+
+
+
 
 var app = builder.Build();
 

@@ -1,0 +1,15 @@
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\bin\Debug\net8.0\proyecto.Domain.deps.json
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\bin\Debug\net8.0\proyecto.Domain.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\bin\Debug\net8.0\proyecto.Domain.pdb
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\proyecto.Domain.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\proyecto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\proyecto.Domain.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\proyecto.Domain.AssemblyInfo.cs
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\proyecto.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\proyecto.Domain.sourcelink.json
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\proyecto.Domain.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\refint\proyecto.Domain.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\proyecto.Domain.pdb
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\ref\proyecto.Domain.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\bin\Debug\net8.0\proyecto.Domain.runtimeconfig.json
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Domain\obj\Debug\net8.0\proyecto.Domain.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\bin\Debug\net8.0\proyecto.Application.deps.json
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\bin\Debug\net8.0\proyecto.Application.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\bin\Debug\net8.0\proyecto.Application.pdb
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\obj\Debug\net8.0\proyecto.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\obj\Debug\net8.0\proyecto.Application.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\obj\Debug\net8.0\proyecto.Application.AssemblyInfo.cs
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\obj\Debug\net8.0\proyecto.Application.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\obj\Debug\net8.0\proyecto.Application.sourcelink.json
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\obj\Debug\net8.0\proyecto.Application.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\obj\Debug\net8.0\refint\proyecto.Application.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\obj\Debug\net8.0\proyecto.Application.pdb
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Application\obj\Debug\net8.0\ref\proyecto.Application.dll
