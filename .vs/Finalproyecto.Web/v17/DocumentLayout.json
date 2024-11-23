@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\exeptions\\clienteexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\exeptions\\clienteexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.domain\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|solutionrelative:proyecto.domain\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\interfaces\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\interfaces\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.domain\\core\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|solutionrelative:proyecto.domain\\core\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteExeption.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Exeptions\\ClienteExeption.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Exeptions\\ClienteExeption.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Exeptions\\ClienteExeption.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Exeptions\\ClienteExeption.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T19:42:48.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "proyecto.Domain\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "proyecto.Domain\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T19:41:22.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Interfaces\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Interfaces\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Interfaces\\Services\\ClienteService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Interfaces\\Services\\ClienteService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T19:19:34.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Core\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "proyecto.Domain\\Core\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Core\\BaseEntity.cs",
+              "RelativeToolTip": "proyecto.Domain\\Core\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T19:16:52.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Services\\IClienteService.cs",
+              "RelativeDocumentMoniker": "proyecto.Web\\Services\\IClienteService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Services\\IClienteService.cs",
+              "RelativeToolTip": "proyecto.Web\\Services\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T19:14:42.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "proyecto.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "proyecto.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:53:01.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
