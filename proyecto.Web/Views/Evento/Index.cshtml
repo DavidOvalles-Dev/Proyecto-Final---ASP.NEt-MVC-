@@ -1,0 +1,37 @@
+﻿@model IEnumerable<proyecto.Domain.Entities.Evento>
+
+@{
+    ViewData["Title"] = "Lista de Eventos";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Lista de Eventos</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Fecha</th>
+                <th>Costo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var evento in Model)
+            {
+                <tr>
+                    <td>@evento.Nombre</td>
+                    <td>@evento.Descripcion</td>
+                    <td>@evento.Fecha.ToShortDateString()</td>
+                    <td>@evento.Costo.ToString("C")</td>
+                    <td>
+                        <form asp-action="RegistrarAsistencia" asp-controller="Evento" method="post">
+                            <input type="hidden" name="id" value="@evento.Id" />
+                            <button type="submit" class="btn btn-primary">Registrar Asistencia</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

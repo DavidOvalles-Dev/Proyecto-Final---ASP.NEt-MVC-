@@ -1,0 +1,44 @@
+﻿@model IEnumerable<proyecto.Domain.Entities.Actividad>
+
+@{
+    ViewData["Title"] = "Lista de Actividades";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!-- Botón para crear una nueva actividad -->
+<a asp-action="Create" asp-controller="Actividad" class="btn btn-primary mb-3">Crear Nueva Actividad</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var actividad in Model)
+        {
+            <tr>
+                <td>@actividad.Nombre</td>
+                <td>@actividad.Descripcion</td>
+                <td>@actividad.Fecha.ToShortDateString()</td>
+                <td>
+                    <!-- Botón para marcar la actividad como completada -->
+                    <form asp-action="MarcarCompletada" asp-controller="Actividad" method="post" style="display: inline;">
+                        <input type="hidden" name="id" value="@actividad.Id" />
+                        <button type="submit" class="btn btn-success">Marcar como Completada</button>
+                    </form>
+
+                    <!-- Botón para marcar asistencia -->
+                    <a asp-action="MarcarAsistencia" asp-controller="Actividad" asp-route-actividadId="@actividad.Id" class="btn btn-warning">Marcar Asistencia</a>
+
+                    <!-- Botón para ver participantes -->
+                    <a asp-action="VerParticipantes" asp-controller="Actividad" asp-route-actividadId="@actividad.Id" class="btn btn-info">Ver Participantes</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

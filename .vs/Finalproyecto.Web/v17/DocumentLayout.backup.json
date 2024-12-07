@@ -3,8 +3,188 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\miembro\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\miembro\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.domain\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|solutionrelative:proyecto.domain\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\contract\\ireporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\contract\\ireporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\contract\\ipagoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\contract\\ipagoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\contract\\imiembroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\contract\\imiembroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\contract\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\contract\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\contract\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\contract\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\contract\\iactividadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\contract\\iactividadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\core\\actividadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\core\\actividadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\core\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\core\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\core\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\core\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\core\\miembroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\core\\miembroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\core\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\core\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.domain\\entities\\miembroactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|solutionrelative:proyecto.domain\\entities\\miembroactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.domain\\entities\\miembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|solutionrelative:proyecto.domain\\entities\\miembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.domain\\entities\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|solutionrelative:proyecto.domain\\entities\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.domain\\entities\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|solutionrelative:proyecto.domain\\entities\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\controllers\\miembroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\controllers\\miembroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\miembro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\miembro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\miembro\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\miembro\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\miembro\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\miembro\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\miembro\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\miembro\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\actividad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\actividad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\actividad\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\actividad\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\actividad\\verparticipantes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\actividad\\verparticipantes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\actividad\\marcarasistencia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\actividad\\marcarasistencia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\controllers\\actividadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\controllers\\actividadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.api\\controllers\\pagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|solutionrelative:proyecto.api\\controllers\\pagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.api\\controllers\\miembroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|solutionrelative:proyecto.api\\controllers\\miembroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|solutionrelative:proyecto.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.api\\controllers\\actividadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|solutionrelative:proyecto.api\\controllers\\actividadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.domain\\entities\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|solutionrelative:proyecto.domain\\entities\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|solutionrelative:proyecto.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.api\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|solutionrelative:proyecto.api\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\core\\pagoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\core\\pagoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.domain\\proyecto.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5780CA28-AC48-4629-816E-70525762A78A}|proyecto.Domain\\proyecto.Domain.csproj|solutionrelative:proyecto.domain\\proyecto.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.api\\proyecto.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|solutionrelative:proyecto.api\\proyecto.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D8A7331-8B3D-4B24-9605-55AD93A50511}|proyecto.Api\\proyecto.Api.csproj|solutionrelative:proyecto.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\proyecto.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\proyecto.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.infrastructure\\proyecto.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0A6C6236-3BF4-42E7-BE8A-7FDCF9DF5C5B}|proyecto.Infrastructure\\proyecto.Infrastructure.csproj|solutionrelative:proyecto.infrastructure\\proyecto.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3861892E-BF61-4E02-9901-660EE883A4CA}|proyecto.Application\\proyecto.Application.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.application\\proyecto.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3861892E-BF61-4E02-9901-660EE883A4CA}|proyecto.Application\\proyecto.Application.csproj|solutionrelative:proyecto.application\\proyecto.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\views\\evento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\views\\evento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|c:\\users\\administrador\\source\\tareas\\finalproyecto.web\\proyecto.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73FA4A70-6AEC-4D95-A4E5-B05A74416AC1}|proyecto.Web\\proyecto.Web.csproj|solutionrelative:proyecto.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +194,608 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMiembroService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IMiembroService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Contract\\IMiembroService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IMiembroService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Contract\\IMiembroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:45:49.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPagoService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IPagoService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Contract\\IPagoService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IPagoService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Contract\\IPagoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:35:37.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IReporteService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IReporteService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Contract\\IReporteService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IReporteService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Contract\\IReporteService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:35:42.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "proyecto.Domain\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "proyecto.Domain\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIA0wB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:59:44.32Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Create.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Miembro\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Create.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Miembro\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBQAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T23:17:10.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEventoService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IEventoService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Contract\\IEventoService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IEventoService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Contract\\IEventoService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:35:22.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IBaseService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Contract\\IBaseService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IBaseService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Contract\\IBaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:45:58.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IActividadService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IActividadService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Contract\\IActividadService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Contract\\IActividadService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Contract\\IActividadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:44:59.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ActividadService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\ActividadService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Core\\ActividadService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\ActividadService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Core\\ActividadService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:59:43.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\BaseService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Core\\BaseService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\BaseService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Core\\BaseService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:59:37.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventoService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\EventoService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Core\\EventoService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\EventoService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Core\\EventoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:59:33.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MiembroService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\MiembroService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Core\\MiembroService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\MiembroService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Core\\MiembroService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAywBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:59:48.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReporteService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\ReporteService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Core\\ReporteService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\ReporteService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Core\\ReporteService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAnwCEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:59:51.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MiembroActividad.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\MiembroActividad.cs",
+              "RelativeDocumentMoniker": "proyecto.Domain\\Entities\\MiembroActividad.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\MiembroActividad.cs",
+              "RelativeToolTip": "proyecto.Domain\\Entities\\MiembroActividad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T03:39:18.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Miembro.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\Miembro.cs",
+              "RelativeDocumentMoniker": "proyecto.Domain\\Entities\\Miembro.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\Miembro.cs",
+              "RelativeToolTip": "proyecto.Domain\\Entities\\Miembro.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:23:28.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Actividad.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\Actividad.cs",
+              "RelativeDocumentMoniker": "proyecto.Domain\\Entities\\Actividad.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\Actividad.cs",
+              "RelativeToolTip": "proyecto.Domain\\Entities\\Actividad.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:22:59.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\Evento.cs",
+              "RelativeDocumentMoniker": "proyecto.Domain\\Entities\\Evento.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\Evento.cs",
+              "RelativeToolTip": "proyecto.Domain\\Entities\\Evento.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:23:13.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MiembrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Controllers\\MiembrosController.cs",
+              "RelativeDocumentMoniker": "proyecto.Web\\Controllers\\MiembrosController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Controllers\\MiembrosController.cs",
+              "RelativeToolTip": "proyecto.Web\\Controllers\\MiembrosController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAkwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T22:29:53.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Index.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Miembro\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Index.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Miembro\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:32:36.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Edit.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Miembro\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Edit.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Miembro\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T23:17:41.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Details.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Miembro\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Details.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Miembro\\Details.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T23:24:32.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Delete.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Miembro\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Miembro\\Delete.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Miembro\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T23:17:58.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Actividad\\Index.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Actividad\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Actividad\\Index.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Actividad\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T21:14:22.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Actividad\\Create.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Actividad\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Actividad\\Create.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Actividad\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T21:33:57.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VerParticipantes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Actividad\\VerParticipantes.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Actividad\\VerParticipantes.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Actividad\\VerParticipantes.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Actividad\\VerParticipantes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T03:47:27.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MarcarAsistencia.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Actividad\\MarcarAsistencia.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Actividad\\MarcarAsistencia.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Actividad\\MarcarAsistencia.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Actividad\\MarcarAsistencia.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T03:46:27.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ActividadController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Controllers\\ActividadController.cs",
+              "RelativeDocumentMoniker": "proyecto.Web\\Controllers\\ActividadController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Controllers\\ActividadController.cs",
+              "RelativeToolTip": "proyecto.Web\\Controllers\\ActividadController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAwGcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:47:03.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PagoController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\PagoController.cs",
+              "RelativeDocumentMoniker": "proyecto.Api\\Controllers\\PagoController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\PagoController.cs",
+              "RelativeToolTip": "proyecto.Api\\Controllers\\PagoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:30:23.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MiembrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\MiembrosController.cs",
+              "RelativeDocumentMoniker": "proyecto.Api\\Controllers\\MiembrosController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\MiembrosController.cs",
+              "RelativeToolTip": "proyecto.Api\\Controllers\\MiembrosController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T22:06:12.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "proyecto.Api\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "proyecto.Api\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:30:04.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ActividadController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\ActividadController.cs",
+              "RelativeDocumentMoniker": "proyecto.Api\\Controllers\\ActividadController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\ActividadController.cs",
+              "RelativeToolTip": "proyecto.Api\\Controllers\\ActividadController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:29:56.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\Pago.cs",
+              "RelativeDocumentMoniker": "proyecto.Domain\\Entities\\Pago.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\Entities\\Pago.cs",
+              "RelativeToolTip": "proyecto.Domain\\Entities\\Pago.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:25:34.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Program.cs",
+              "RelativeDocumentMoniker": "proyecto.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Program.cs",
+              "RelativeToolTip": "proyecto.Api\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAnwBYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:30:45.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EventoController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\EventoController.cs",
+              "RelativeDocumentMoniker": "proyecto.Api\\Controllers\\EventoController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\Controllers\\EventoController.cs",
+              "RelativeToolTip": "proyecto.Api\\Controllers\\EventoController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:30:08.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PagoService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\PagoService.cs",
+              "RelativeDocumentMoniker": "proyecto.Infrastructure\\Core\\PagoService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\Core\\PagoService.cs",
+              "RelativeToolTip": "proyecto.Infrastructure\\Core\\PagoService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:59:49.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "proyecto.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\proyecto.Domain.csproj",
+              "RelativeDocumentMoniker": "proyecto.Domain\\proyecto.Domain.csproj",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Domain\\proyecto.Domain.csproj",
+              "RelativeToolTip": "proyecto.Domain\\proyecto.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T00:55:00.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "proyecto.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\proyecto.Api.csproj",
+              "RelativeDocumentMoniker": "proyecto.Api\\proyecto.Api.csproj",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\proyecto.Api.csproj",
+              "RelativeToolTip": "proyecto.Api\\proyecto.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T00:52:36.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "proyecto.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\appsettings.json",
+              "RelativeToolTip": "proyecto.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T15:31:05.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "proyecto.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\proyecto.Infrastructure.csproj",
               "RelativeDocumentMoniker": "proyecto.Infrastructure\\proyecto.Infrastructure.csproj",
               "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\proyecto.Infrastructure.csproj",
               "RelativeToolTip": "proyecto.Infrastructure\\proyecto.Infrastructure.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T19:13:52.906Z",
+              "WhenOpened": "2024-12-07T00:52:26.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "proyecto.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\proyecto.Web.csproj",
+              "RelativeDocumentMoniker": "proyecto.Web\\proyecto.Web.csproj",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\proyecto.Web.csproj",
+              "RelativeToolTip": "proyecto.Web\\proyecto.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T00:47:35.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "proyecto.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Application\\proyecto.Application.csproj",
+              "RelativeDocumentMoniker": "proyecto.Application\\proyecto.Application.csproj",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Application\\proyecto.Application.csproj",
+              "RelativeToolTip": "proyecto.Application\\proyecto.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T00:42:05.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwCIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T21:57:33.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EventoController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Controllers\\EventoController.cs",
+              "RelativeDocumentMoniker": "proyecto.Web\\Controllers\\EventoController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Controllers\\EventoController.cs",
+              "RelativeToolTip": "proyecto.Web\\Controllers\\EventoController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:11:32.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Evento\\Index.cshtml",
+              "RelativeDocumentMoniker": "proyecto.Web\\Views\\Evento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Views\\Evento\\Index.cshtml",
+              "RelativeToolTip": "proyecto.Web\\Views\\Evento\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T21:29:49.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "proyecto.Web\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "proyecto.Web\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-06T21:18:51.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "proyecto.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\appsettings.json",
+              "RelativeToolTip": "proyecto.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-06T21:18:43.761Z",
               "EditorCaption": ""
             }
           ]

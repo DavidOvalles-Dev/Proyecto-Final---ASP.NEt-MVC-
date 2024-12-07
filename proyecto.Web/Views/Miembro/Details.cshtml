@@ -1,0 +1,38 @@
+﻿@model proyecto.Domain.Entities.Miembro
+
+@{
+    ViewData["Title"] = "Detalles del Miembro";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Detalles del Miembro</h2>
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Información del Miembro</h5>
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <strong>Nombre:</strong> @Model.Nombre
+                </li>
+                <li class="list-group-item">
+                    <strong>Apellido:</strong> @Model.Apellido
+                </li>
+                <li class="list-group-item">
+                    <strong>Email:</strong> @Model.Email
+                </li>
+                <li class="list-group-item">
+                    <strong>Fecha de Nacimiento:</strong> @Model.FechaNacimiento.ToShortDateString()
+                </li>
+            </ul>
+
+            <div class="mt-4">
+                <a asp-action="Index" asp-controller="Miembro" class="btn btn-primary">Volver a la Lista</a>
+                <a asp-action="Edit" asp-controller="Miembro" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+                <form asp-action="Delete" asp-controller="Miembro" asp-route-id="@Model.Id" method="post" class="d-inline" onsubmit="return confirm('¿Está seguro de que desea eliminar este miembro?');">
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<proyecto.Domain.Entities.Miembro>
+
+@{
+    ViewData["Title"] = "Lista de Miembros";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Lista de Miembros</h2>
+
+    <!-- Botón para crear un nuevo miembro -->
+    <div class="mb-3">
+        <a asp-action="Create" asp-controller="Miembro" class="btn btn-success">Crear Nuevo Miembro</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var miembro in Model)
+                {
+                    <tr>
+                        <td>@miembro.Nombre</td>
+                        <td>@miembro.Apellido</td>
+                        <td>@miembro.Email</td>
+                        <td>@miembro.FechaNacimiento.ToShortDateString()</td>
+                        <td>
+                            <!-- Botón para ver detalles -->
+                            <a asp-action="Details" asp-controller="Miembro" asp-route-id="@miembro.Id" class="btn btn-info btn-sm">Detalles</a>
+
+                            <!-- Botón para editar -->
+                            <a asp-action="Edit" asp-controller="Miembro" asp-route-id="@miembro.Id" class="btn btn-warning btn-sm">Editar</a>
+
+                            <!-- Botón para eliminar -->
+                            <form asp-action="Delete" asp-controller="Miembro" asp-route-id="@miembro.Id" method="post" class="d-inline" onsubmit="return confirm('¿Está seguro de que desea eliminar este miembro?');">
+                                <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" class="text-center">No hay miembros registrados.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
