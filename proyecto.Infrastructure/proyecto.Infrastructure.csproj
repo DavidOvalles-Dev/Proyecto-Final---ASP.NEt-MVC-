@@ -10,4 +10,8 @@
     <ProjectReference Include="..\proyecto.Domain\proyecto.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Exeptions\" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,30 @@
+﻿@model List<proyecto.Domain.Entities.MiembroActividad>
+
+@{
+    ViewData["Title"] = "Participantes";
+}
+
+<h1>Participantes - @ViewBag.Actividad.Nombre</h1>
+
+<p>@ViewBag.Actividad.Descripcion</p>
+<p><strong>Fecha:</strong> @ViewBag.Actividad.Fecha.ToShortDateString()</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Asistió</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var miembro in Model)
+        {
+            <tr>
+                <td>@miembro.Miembro.Nombre</td>
+                <td>@miembro.Miembro.Apellido</td>
+                <td>@(miembro.Asistio ? "Sí" : "No")</td>
+            </tr>
+        }
+    </tbody>
+</table>

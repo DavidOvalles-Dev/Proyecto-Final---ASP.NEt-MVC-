@@ -1,0 +1,22 @@
+﻿@model proyecto.Domain.Entities.Miembro
+
+@{
+    ViewData["Title"] = "Eliminar Miembro";
+}
+
+<h2>Eliminar Miembro</h2>
+
+<div class="alert alert-warning">
+    ¿Está seguro de que desea eliminar este miembro?
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <div class="form-group">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+        <p><strong>Apellido:</strong> @Model.Apellido</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+    </div>
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a href="@Url.Action("Index", "Miembro")" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,0 +1,39 @@
+﻿@model proyecto.Domain.Entities.Actividad
+
+@{
+    ViewData["Title"] = "Crear Actividad";
+}
+
+<h1>Crear Actividad</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Descripcion">Descripción</label>
+        <textarea asp-for="Descripcion" class="form-control"></textarea>
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Fecha">Fecha</label>
+        <input asp-for="Fecha" type="date" class="form-control" />
+        <span asp-validation-for="Fecha" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Organizador">Organizador</label>
+        <select id="organizador" name="OrganizadorId" class="form-control">
+            @foreach (var miembro in ViewBag.Miembros)
+            {
+                <option value="@miembro.Id">@miembro.Nombre @miembro.Apellido</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>

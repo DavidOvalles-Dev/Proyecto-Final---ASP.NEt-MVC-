@@ -1,11 +1,15 @@
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\bin\Debug\net8.0\proyecto.Infrastructure.deps.json
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\bin\Debug\net8.0\proyecto.Infrastructure.dll
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\bin\Debug\net8.0\proyecto.Infrastructure.pdb
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\bin\Debug\net8.0\proyecto.Domain.dll
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\bin\Debug\net8.0\proyecto.Domain.pdb
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.AssemblyInfo.cs
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.sourcelink.json
+C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.9B1E9D73.Up2Date
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.dll
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\refint\proyecto.Infrastructure.dll
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Infrastructure\obj\Debug\net8.0\proyecto.Infrastructure.pdb

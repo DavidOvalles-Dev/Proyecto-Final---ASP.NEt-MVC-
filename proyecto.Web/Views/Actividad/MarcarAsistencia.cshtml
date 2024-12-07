@@ -1,0 +1,33 @@
+﻿@model List<proyecto.Domain.Entities.MiembroActividad>
+
+@{
+    ViewData["Title"] = "Marcar Asistencia";
+}
+
+<h1>Marcar Asistencia</h1>
+
+<form asp-action="GuardarAsistencia" method="post">
+    <input type="hidden" name="actividadId" value="@ViewBag.ActividadId" />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Asistió</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var miembro in Model)
+            {
+                <tr>
+                    <td>@miembro.Miembro.Nombre</td>
+                    <td>@miembro.Miembro.Apellido</td>
+                    <td>
+                        <input type="checkbox" name="Asistencia[@miembro.MiembroId]" value="true" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
