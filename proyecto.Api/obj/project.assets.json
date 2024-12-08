@@ -1612,26 +1612,6 @@
         "runtime": {
           "bin/placeholder/proyecto.Infrastructure.dll": {}
         }
-      },
-      "proyecto.Web/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.10",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
-          "Swashbuckle.AspNetCore": "7.1.0",
-          "proyecto.Domain": "1.0.0",
-          "proyecto.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/proyecto.Web.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/proyecto.Web.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -4508,11 +4488,6 @@
       "type": "project",
       "path": "../proyecto.Infrastructure/proyecto.Infrastructure.csproj",
       "msbuildProject": "../proyecto.Infrastructure/proyecto.Infrastructure.csproj"
-    },
-    "proyecto.Web/1.0.0": {
-      "type": "project",
-      "path": "../proyecto.Web/proyecto.Web.csproj",
-      "msbuildProject": "../proyecto.Web/proyecto.Web.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4521,8 +4496,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "Swashbuckle.AspNetCore >= 7.1.0",
       "proyecto.Domain >= 1.0.0",
-      "proyecto.Infrastructure >= 1.0.0",
-      "proyecto.Web >= 1.0.0"
+      "proyecto.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4563,9 +4537,6 @@
             },
             "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\proyecto.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Infrastructure\\proyecto.Infrastructure.csproj"
-            },
-            "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\proyecto.Web.csproj": {
-              "projectPath": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Web\\proyecto.Web.csproj"
             }
           }
         }

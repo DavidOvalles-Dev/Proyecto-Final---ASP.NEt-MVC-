@@ -1,10 +1,5 @@
-C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Web.deps.json
-C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Web.runtimeconfig.json
-C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Web.staticwebassets.runtime.json
-C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Web.exe
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\appsettings.json
-C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Api.staticwebassets.runtime.json
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Api.exe
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Api.deps.json
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Api.runtimeconfig.json
@@ -126,10 +121,8 @@ C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\ne
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Domain.dll
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Infrastructure.dll
-C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Web.dll
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Domain.pdb
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Infrastructure.pdb
-C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\bin\Debug\net8.0\proyecto.Web.pdb
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\obj\Debug\net8.0\proyecto.Api.csproj.AssemblyReference.cache
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\obj\Debug\net8.0\proyecto.Api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Administrador\source\Tareas\Finalproyecto.Web\proyecto.Api\obj\Debug\net8.0\proyecto.Api.AssemblyInfoInputs.cache

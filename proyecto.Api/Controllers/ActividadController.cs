@@ -15,14 +15,12 @@ namespace proyecto.Api.Controllers
             _actividadService = actividadService;
         }
 
-        // Método personalizado: Obtener actividades por MiembroId
-        [HttpGet("ByMiembro/{miembroId}")]
-        public async Task<IActionResult> GetActividadesByMiembroId(int miembroId)
-        {
-            var actividades = await _actividadService.GetActividadesByMiembroIdAsync(miembroId);
-            return Ok(actividades);
-        }
-
-
+        // Elimina este método ya que no tiene sentido sin la relación:
+        // [HttpGet("ByMiembro/{miembroId}")]
+        // public async Task<IActionResult> GetActividadesByMiembroId(int miembroId)
+        // {
+        //     var actividades = await _actividadService.GetActividadesByMiembroIdAsync(miembroId);
+        //     return Ok(actividades);
+        // }
     }
 }

@@ -10,9 +10,9 @@ public class MiembroController : Controller
     private readonly HttpClient _httpClient;
 
     public MiembroController(HttpClient httpClient)
-        {
-            _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri("https://localhost:7038/api/"); // URL de tu API
+    {
+        _httpClient = httpClient;
+        _httpClient.BaseAddress = new Uri("https://localhost:7038/api/"); // URL de tu API
     }
 
     public async Task<IActionResult> Index()
@@ -27,15 +27,11 @@ public class MiembroController : Controller
         return View(new List<Miembro>());
     }
 
-
     public IActionResult Create()
     {
-        var miembro = new Miembro(); 
-        return View(miembro);
+        return View(new Miembro());
     }
 
-
-    // POST: Miembro/Create
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(Miembro miembro)
@@ -58,7 +54,6 @@ public class MiembroController : Controller
         return View(miembro);
     }
 
-    // GET: Miembro/Edit/5
     public async Task<IActionResult> Edit(int id)
     {
         var response = await _httpClient.GetAsync($"Miembro/{id}");
@@ -71,7 +66,6 @@ public class MiembroController : Controller
         return NotFound();
     }
 
-    // POST: Miembro/Edit/5
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, Miembro miembro)
@@ -112,8 +106,6 @@ public class MiembroController : Controller
         return NotFound(); // Si no encuentra al miembro, redirige a una página 404
     }
 
-
-    // GET: Miembro/Delete/5
     public async Task<IActionResult> Delete(int id)
     {
         var response = await _httpClient.GetAsync($"Miembro/{id}");
@@ -126,7 +118,6 @@ public class MiembroController : Controller
         return NotFound();
     }
 
-    // POST: Miembro/Delete/5
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
@@ -140,7 +131,4 @@ public class MiembroController : Controller
         ModelState.AddModelError(string.Empty, "Error al eliminar el miembro.");
         return RedirectToAction("Index");
     }
-
-
-  
-    }
+}

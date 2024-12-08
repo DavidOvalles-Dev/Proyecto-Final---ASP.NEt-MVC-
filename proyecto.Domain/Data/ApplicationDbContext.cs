@@ -1,36 +1,29 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using proyecto.Domain.Entities;
 
-
-
 namespace proyecto.Infrastructure
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 
-        public DbSet<Miembro> Miembros { get; set; }
         public DbSet<Actividad> Actividades { get; set; }
-        public DbSet<MiembroActividad> MiembroActividades { get; set; }
+        public DbSet<Miembro> Miembros { get; set; }
         public DbSet<Evento> Eventos { get; set; }
         public DbSet<Pago> Pagos { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Configuración de muchos a muchos: Miembro ↔ Actividad
-            modelBuilder.Entity<MiembroActividad>()
-                .HasKey(ma => new { ma.MiembroId, ma.ActividadId });
-
-            modelBuilder.Entity<MiembroActividad>()
-                .HasOne(ma => ma.Miembro)
-                .WithMany(m => m.MiembroActividades)
-                .HasForeignKey(ma => ma.MiembroId);
-
-            base.OnModelCreating(modelBuilder);
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder
+                    .UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ProyectoFinalP-2;Trusted_Connection=True;",
+                        b => b.MigrationsAssembly("proyecto.Domain"));  // Asegúrate de que el nombre del ensamblaje sea correcto
+            }
         }
+    }
 
-    }
-    }
+}
+

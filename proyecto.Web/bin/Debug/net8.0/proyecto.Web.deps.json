@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.10",
           "Swashbuckle.AspNetCore": "7.1.0",
+          "proyecto.Api": "1.0.0",
           "proyecto.Domain": "1.0.0",
           "proyecto.Infrastructure": "1.0.0"
         },
@@ -940,6 +941,19 @@
           }
         }
       },
+      "proyecto.Api/1.0.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "7.1.0",
+          "proyecto.Domain": "1.0.0",
+          "proyecto.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "proyecto.Api.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "proyecto.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
@@ -1544,6 +1558,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "proyecto.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "proyecto.Domain/1.0.0": {
       "type": "project",

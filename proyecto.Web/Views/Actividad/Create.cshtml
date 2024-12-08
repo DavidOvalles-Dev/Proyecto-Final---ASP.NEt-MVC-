@@ -28,7 +28,7 @@
     <div class="form-group">
         <label for="Organizador">Organizador</label>
         <select id="organizador" name="OrganizadorId" class="form-control">
-            @foreach (var miembro in ViewBag.Miembros)
+            @foreach (var miembro in ViewBag.Miembros as List<proyecto.Domain.Entities.Miembro>)
             {
                 <option value="@miembro.Id">@miembro.Nombre @miembro.Apellido</option>
             }

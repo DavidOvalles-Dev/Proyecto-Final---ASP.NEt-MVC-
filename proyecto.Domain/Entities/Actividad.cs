@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using proyecto.Domain.Entities;
 
 namespace proyecto.Domain.Entities
 {
@@ -10,10 +9,7 @@ namespace proyecto.Domain.Entities
         public string Descripcion { get; set; }
         public DateTime Fecha { get; set; }
 
-        // Relación con Miembro (participantes)
-        public ICollection<Miembro> Miembros { get; set; } = new List<Miembro>();
-
-        // Relación con el Creador de la actividad
+        // Relación con el creador
         public int CreadorId { get; set; }
         public Miembro Creador { get; set; }
     }

@@ -6,6 +6,7 @@ namespace proyecto.Infrastructure.Contract
 {
     public interface IActividadService : IBaseService<Actividad>
     {
-        Task<IEnumerable<Actividad>> GetActividadesByMiembroIdAsync(int miembroId);
+        // Elimina este método:
+        // Task<IEnumerable<Actividad>> GetActividadesByMiembroIdAsync(int miembroId);
     }
 }

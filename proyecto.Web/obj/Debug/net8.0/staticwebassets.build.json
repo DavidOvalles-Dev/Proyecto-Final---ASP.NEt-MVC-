@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "+j5YRsvqeTGVL3oU2S03YW9LpFAIVWP9UG/AzdT9feE=",
+  "Hash": "yLFVwzv/aK0Yyvmtt33sAfBEsodEls5e3rtZ0zul+jg=",
   "Source": "proyecto.Web",
   "BasePath": "_content/proyecto.Web",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\Tareas\\Finalproyecto.Web\\proyecto.Api\\proyecto.Api.csproj",
+      "Version": 2,
+      "Source": "proyecto.Api",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "proyecto.Web\\wwwroot",

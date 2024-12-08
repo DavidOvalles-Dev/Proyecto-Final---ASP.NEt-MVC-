@@ -29,12 +29,10 @@ public class ActividadController : Controller
         return View(new List<Actividad>());
     }
 
-
     public async Task<IActionResult> Create()
     {
         try
         {
-            // Llamada al API para obtener los miembros
             var response = await _httpClient.GetAsync("Miembro");
 
             if (response.IsSuccessStatusCode)
@@ -44,26 +42,22 @@ public class ActividadController : Controller
                 {
                     PropertyNameCaseInsensitive = true
                 });
-
-                // Pasar los miembros a la vista con ViewBag
                 ViewBag.Miembros = miembros;
             }
             else
             {
                 TempData["Error"] = "No se pudieron cargar los miembros.";
-                ViewBag.Miembros = new List<Miembro>(); // Pasar una lista vacía en caso de error
+                ViewBag.Miembros = new List<Miembro>();
             }
         }
         catch (Exception ex)
         {
             TempData["Error"] = $"Ocurrió un error: {ex.Message}";
-            ViewBag.Miembros = new List<Miembro>(); // Manejo en caso de excepción
+            ViewBag.Miembros = new List<Miembro>();
         }
 
         return View();
     }
-
-
 
     [HttpPost]
     public async Task<IActionResult> Create(Actividad actividad, int OrganizadorId, List<int> MiembroIds)
@@ -78,7 +72,7 @@ public class ActividadController : Controller
             actividad.Nombre,
             actividad.Descripcion,
             actividad.Fecha,
-            OrganizadorId, // Agregar el ID del organizador
+            OrganizadorId,
             MiembroIds
         };
 
@@ -100,14 +94,13 @@ public class ActividadController : Controller
         return View(actividad);
     }
 
-
     public async Task<IActionResult> MarcarAsistencia(int actividadId)
     {
         var response = await _httpClient.GetAsync($"Miembro/ByActividad/{actividadId}");
         if (response.IsSuccessStatusCode)
         {
             var jsonData = await response.Content.ReadAsStringAsync();
-            var miembros = JsonSerializer.Deserialize<List<MiembroActividad>>(jsonData, new JsonSerializerOptions
+            var miembros = JsonSerializer.Deserialize<List<Miembro>>(jsonData, new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             });
@@ -147,14 +140,13 @@ public class ActividadController : Controller
         return RedirectToAction("MarcarAsistencia", new { actividadId });
     }
 
-
     public async Task<IActionResult> VerParticipantes(int actividadId)
     {
         var response = await _httpClient.GetAsync($"Miembro/ByActividad/{actividadId}");
         if (response.IsSuccessStatusCode)
         {
             var jsonData = await response.Content.ReadAsStringAsync();
-            var miembros = JsonSerializer.Deserialize<List<MiembroActividad>>(jsonData, new JsonSerializerOptions
+            var miembros = JsonSerializer.Deserialize<List<Miembro>>(jsonData, new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             });
@@ -166,7 +158,6 @@ public class ActividadController : Controller
         TempData["Error"] = "No se pudieron cargar los participantes.";
         return RedirectToAction("Index");
     }
-
 
     [HttpPost]
     public async Task<IActionResult> MarcarCompletada(int id)
@@ -182,6 +173,4 @@ public class ActividadController : Controller
         TempData["Error"] = "No se pudo completar la actividad.";
         return RedirectToAction("Index");
     }
-
-
 }

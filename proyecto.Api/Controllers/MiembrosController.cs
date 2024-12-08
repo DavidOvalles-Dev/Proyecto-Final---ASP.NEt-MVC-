@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using proyecto.Domain.Entities;
 using proyecto.Infrastructure.Contract;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using proyecto.Domain.Entities;
 
 namespace proyecto.Api.Controllers
 {
@@ -12,35 +10,13 @@ namespace proyecto.Api.Controllers
     {
         private readonly IMiembroService _miembroService;
 
+        // El servicio de miembros es inyectado desde la clase base
         public MiembroController(IMiembroService miembroService) : base(miembroService)
         {
             _miembroService = miembroService;
         }
 
-        [HttpGet("All")]
-        public async Task<IActionResult> GetAll()
-        {
-            var miembros = await _miembroService.GetAllAsync();
-            if (miembros == null || !miembros.Any())
-            {
-                return NotFound("No hay miembros disponibles.");
-            }
-
-            return Ok(miembros.Select(m => new
-            {
-                m.Id,
-                m.Nombre,
-                m.Apellido
-            }));
-        }
-
-
-        // Método personalizado: Obtener miembros por ActividadId
-        [HttpGet("ByActividad/{actividadId}")]
-        public async Task<IActionResult> GetMiembrosByActividadId(int actividadId)
-        {
-            var miembros = await _miembroService.GetMiembrosByActividadIdAsync(actividadId);
-            return Ok(miembros);
-        }
+        // Si necesitas lógica adicional que no esté en la clase base,
+        // puedes agregarla aquí. Pero no es necesario para los métodos CRUD básicos.
     }
 }

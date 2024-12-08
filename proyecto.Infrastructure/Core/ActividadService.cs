@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using proyecto.Domain.Entities;
+﻿using proyecto.Domain.Entities;
 using proyecto.Infrastructure.Contract;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace proyecto.Infrastructure.Services
 {
@@ -14,10 +14,10 @@ namespace proyecto.Infrastructure.Services
             _context = context;
         }
 
-        public async Task<IEnumerable<Actividad>> GetActividadesByMiembroIdAsync(int miembroId)
-        {
-            // Lógica para obtener actividades por miembro
-            return await Task.FromResult(new List<Actividad>()); // Sustituir con lógica real
-        }
+        // Elimina este método porque ya no se necesita
+        // public async Task<IEnumerable<Actividad>> GetActividadesByMiembroIdAsync(int miembroId)
+        // {
+        //     return await Task.FromResult(new List<Actividad>());
+        // }
     }
 }

@@ -79,22 +79,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "proyecto.Api.Controllers.ActividadController",
-    "Method": "GetActividadesByMiembroId",
-    "RelativePath": "api/Actividad/ByMiembro/{miembroId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "miembroId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "proyecto.Api.Controllers.BaseController\u00601[[proyecto.Domain.Entities.Evento, proyecto.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAll",
     "RelativePath": "api/Evento",
@@ -288,32 +272,6 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "proyecto.Api.Controllers.MiembroController",
-    "Method": "GetAll",
-    "RelativePath": "api/Miembro/All",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "proyecto.Api.Controllers.MiembroController",
-    "Method": "GetMiembrosByActividadId",
-    "RelativePath": "api/Miembro/ByActividad/{actividadId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "actividadId",
         "Type": "System.Int32",
         "IsRequired": true
       }
